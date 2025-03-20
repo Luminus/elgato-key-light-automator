@@ -10,10 +10,12 @@ A Node.js script that toggles on and off Elgato Key Lights and Elgato Key Light 
 
 ## Usage
 ```bash
-git clone https://github.com/jasonheecs/elgato-key-light-automator.git
+git clone https://github.com/luminus/elgato-key-light-automator.git
 cd elgato-key-light-automator && npm i
 node index.js
 ```
+
+You'll need to edit the `config.json` file with the IP address(es) or human readable URL(s) of your Key Light(s) for the command to work since this doesn't rely on Bonjour anymore.
 
 ## Testing
 Testing is done via Jest:
